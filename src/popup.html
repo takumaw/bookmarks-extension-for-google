@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="library/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="library/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="popup.css">
+  <script src="library/jquery-2.1.4/jquery-2.1.4.min.js"></script>
+	<script src="library/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+  <script src="common.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+<div class="main">
+	<div class="col-bookmark-status">
+		<div class="col-bookmark-status-container">
+			<div id="col-bookmark-status-banner" class="col-bookmark-status-banner">
+				<div id="col-bookmark-status-banner-message" class="col-bookmark-status-banner-message">
+					Loading...
+				</div>
+				<div id="col-bookmark-status-banner-border" class="col-bookmark-status-banner-border">
+				</div>
+				<div id="col-bookmark-status-banner-icon" class="col-bookmark-status-banner-icon">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-bookmark-fields">
+		<input id="input-text-title" class="input-text input-text-title" type="text" spellcheck="false" placeholder="Add title...">
+		<input id="input-text-url" class="input-text input-text-url" type="text" spellcheck="false" placeholder="Add url...">
+		<textarea id="input-text-note" class="input-text input-text-note" spellcheck="false" placeholder="Add none..."></textarea>
+		<input id="input-text-labels" class="input-text input-text-labels" type="text" spellcheck="false" placeholder="Add labels...">
+		<input id="input-text-sig" class="input-text input-text-sig" type="text" spellcheck="false" placeholder="Add url...">
+	</div>
+	<div class="col-label-completion-list">
+		<div id="label-completion-list" class="label-completion-list">
+			<!--
+			<div class="label-completion-list-item selected">label1</div>
+			<div class="label-completion-list-item">label2</div>
+			<div class="label-completion-list-item">label3</div>
+			-->
+		</div>
+	</div>
+</div>
+</body>
+</html>

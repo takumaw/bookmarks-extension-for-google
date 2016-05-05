@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bookmarks Extension for Google Options</title>
+	<link rel="stylesheet" href="library/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="library/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="options.css">
+	<script src="library/jquery-2.1.4/jquery-2.1.4.min.js"></script>
+	<script src="library/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	<script src="common.js"></script>
+	<script src="options.js"></script>
+</head>
+<body>
+<div class="container">
+	<section id="upload_bookmarks">
+		<h4 class="upload_bookmarks_title">Upload bookmarks</h4>
+		<p id="upload_bookmarks_message">
+			Upload your bookmarks.html to Google Bookmarks.
+		</p>
+		<div id="upload_bookmarks_buttons">
+			<button id="upload_bookmarks_button_select_file">Select file to upload</button>
+			<input id="upload_bookmarks_input_select_file_hidden" type="file" accept="text/html">
+			<p id="upload_bookmarks_result">
+			</p>
+		</div>
+	</section>
+
+	<section id="test">
+		<h4 class="test_title">Functionality test</h1>
+		<p id="test_message">
+			Test functionality of this extension.
+		</p>
+		<div id="tests_fields">
+			<label for="url">Sig</label>
+			<input type="text" name="sig" id="tests_field_sig" placeholder="sig...">
+			<label for="url">Labels</label>
+			<input type="text" name="labels" id="tests_field_labels" placeholder="labels...">
+		</div>
+		<div id="tests_buttons">
+			<button id="tests_button_test">Test</button>
+			<p id="tests_result">
+			</p>
+		</div>
+	</section>
+
+	<section id="about">
+		<h4 class="about_title">About</h4>
+		<p id="about_message">
+(C) 2015 WATANABE Takuma &lt;takumaw@sfo.kuramae.ne.jp&gt;<br>
+<br>
+Bookmarks Launcher for Google, excluding the softwares and the icon from third-parties,
+is released under MIT License.<br>
+<br>
+<a href="http://jquery.org/">jQuery</a> is by jQuery Foundation, released under MIT License.<br>
+<a href="http://twitter.github.com/bootstrap/">Bootstrap</a> is by @mdo and @fat, released under Apache License v2.0.<br>
+		</p>
+	</section>
+</div>
+</body>
+</html>

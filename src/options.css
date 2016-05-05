@@ -1,0 +1,45 @@
+/* Copyright (c) WATANABE Takuma <takumaw@sfo.kuramae.ne.jp> */
+
+body {
+	font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+	-webkit-user-select: none;
+	cursor: default;
+}
+
+.container section {
+	margin: 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.container section:last-child {
+	border-bottom: none;
+}
+
+#upload_bookmarks_fields,
+#tests_fields {
+	margin: 5px 0;
+}
+
+#upload_bookmarks_fields label,
+#tests_fields label {
+	margin-right: 5px;
+}
+
+#upload_bookmarks_fields input[type=text],
+#tests_fields input[type=text] {
+	width: 100%;
+}
+
+#upload_bookmarks_buttons,
+#tests_buttons {
+	margin: 5px 0;
+}
+
+#upload_bookmarks_buttons #upload_bookmarks_result,
+#tests_buttons #tests_result {
+	display: inline;
+}
+
+#upload_bookmarks_input_select_file_hidden {
+	display: none;
+}

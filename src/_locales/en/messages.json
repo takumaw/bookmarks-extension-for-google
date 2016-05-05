@@ -1,0 +1,20 @@
+{
+	"application_title": {
+    	"message": "Bookmarks Extension for Google"
+	},
+  	"application_description": {
+    	"message": "Google Bookmarking made easy."
+  	},
+  	"add_to_google_bookmarks": {
+  		"message": "Add to Google Bookmarks"
+  	},
+  	"add_title": {
+		"message": "Add title..."
+  	},
+  	"add_note": {
+		"message": "Add note..."
+  	},
+  	"add_tags": {
+		"message": "Add tags..."
+  	}
+}

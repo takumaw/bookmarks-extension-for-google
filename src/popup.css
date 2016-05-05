@@ -1,0 +1,201 @@
+/* Copyright (c) WATANABE Takuma <takumaw@sfo.kuramae.ne.jp> */
+
+body {
+	width: 350px;
+	margin: 0;
+	font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+	-webkit-user-select: none;
+	cursor: default;
+}
+
+.hidden {
+	display: none;
+}
+
+.col-bookmark-status {
+	width: 100%;
+	height: 70px;
+    background: #ddd;
+	color: #fff;
+}
+
+.col-bookmark-status .col-bookmark-status-container {
+	width: 100%;
+    height: 40px;
+    position: relative;
+	top: 15px;
+    text-align: center;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner {
+	display: inline-block;
+	background-color: #333;
+    border-radius: 20px;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner.bookmarked {
+  	background-color: #2E6DA4;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner.notbookmarked {
+  	background-color: #8A6D3B;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner.done {
+  	background-color: #5CB85C;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner.error {
+  	background-color: #A94442;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner .col-bookmark-status-banner-message {
+	display: inline-block;
+	max-width: 200px;
+	height: 41px;
+	position: relative;
+	padding: 0px 5px 0 10px;
+	overflow: hidden;
+	color: #fff;
+	font-size: 12px;
+	line-height: 41px;
+	text-align: left;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner .col-bookmark-status-banner-border {
+	border-left: 1px solid #fff;
+    display: inline-block;
+    height: 22px;
+    position: relative;
+    top: -4px;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner .col-bookmark-status-banner-border.icon-is-on-display {
+  	top: 10px;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner .col-bookmark-status-banner-icon {
+	background-color: rgba(255,255,255,0.1);
+	background-position: center;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 29px;
+	margin-top: 6px;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 4px;
+	width: 29px;
+	transition: background-color 200ms ease-in-out;
+	display: inline-block;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner .col-bookmark-status-banner-icon:hover {
+  	background-color: rgba(255,255,255,0.2);
+  	transition: background-color 200ms ease-in-out;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner .col-bookmark-status-banner-icon
+  .glyphicon {
+  	top: 5px;
+}
+
+.col-bookmark-status .col-bookmark-status-container
+  .col-bookmark-status-banner .col-bookmark-status-banner-icon
+  .glyphicon.rotating {
+  	animation: rotate 2s linear;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.col-bookmark-fields {
+    border-bottom: #e4e4e4 1px solid;
+}
+
+.col-bookmark-fields .input-text {
+	width: 340px;
+	margin: 5px 5px;
+	cursor: text;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+    font-family: inherit;
+    outline: none;
+    overflow: hidden;
+	padding: 2px 5px;
+    resize: none;
+    position: relative;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+}
+
+.col-bookmark-fields .input-text:hover {
+	background-color: rgba(77,144,254,0.15);
+}
+
+.col-bookmark-fields .input-text:focus {
+	outline: #4d90fe solid 1px;
+	outline-offset: 0.5px;
+	overflow-y: auto;
+}
+
+.col-bookmark-fields .input-text-title {
+	color: #111;
+	font-size: 16px;
+	font-weight: 500;
+	height: 24px;
+}
+
+.col-bookmark-fields .input-text-url {
+	color: #333;
+	font-size: 14px;
+	font-weight: 500;
+	height: 20px;
+}
+
+.col-bookmark-fields .input-text-sig {
+	display: none;
+}
+
+.col-bookmark-fields .input-text-note {
+    color: #111;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.col-bookmark-fields .input-text-labels {
+	color: #333;
+	font-size: 16px;
+}
+
+.col-label-completion-list .label-completion-list {
+	max-height: 300px;
+	overflow: scroll;
+}
+
+.col-label-completion-list .label-completion-list .label-completion-list-item {
+	margin: 1px 5px;
+	padding: 2px 0;
+}
+
+.col-label-completion-list .label-completion-list .label-completion-list-item.selected {
+	color: #111;
+	background-color: rgba(77,144,254,0.15);
+}
