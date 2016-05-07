@@ -12,8 +12,6 @@
 		"128": "icons/icon_128.png",
 		"256": "icons/icon_256.png"
 	},
-	//"homepage_url": "...",
-	//"update_url": "...",
 
 	"browser_action": {
 		"default_icon": "icons/icon_64.png",
@@ -29,12 +27,6 @@
 	   ]
 	},
 	"commands": {
-		//"_execute_browser_action": {
-		//	"suggested_key": {
-		//		"default": "Ctrl+Shift+D",
-		//		"mac": "Command+Shift+D"
-		//	}
-		//}
 	},
 	"incognito": "spanning",
 	"offline_enabled": false,
