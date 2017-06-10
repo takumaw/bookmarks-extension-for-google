@@ -10,7 +10,7 @@ With this, you can add a page to Google Bookmarks simply by clicking the icon.
 Screenshots
 -----------
 
-![screenshot1](https://github.com/takumaw/bookmarks-extension-for-google/raw/master/extra/screenshot.png)  
+![screenshot1](./github/screenshot.png)  
 
 
 Install
