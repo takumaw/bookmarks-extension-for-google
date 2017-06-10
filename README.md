@@ -10,7 +10,7 @@ With this, you can add a page to Google Bookmarks simply by clicking the icon.
 Screenshots
 -----------
 
-![screenshot1](./github/screenshot.png)  
+![screenshot1](./extra/screenshot.png)  
 
 
 Install
